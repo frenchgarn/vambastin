@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#170404
+}
+.dent{
+    background-image: url(./images/balo\ 3.jpg);
+    background-size: cover;
+    background-repeat:;
+}
+.gush{
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+.des{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.food{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+
+}
+.food a{text-decoration: antiquewhite;
+    font-style: oblique;
+    color: aliceblue;
+}
+.food a:hover{
+    cursor: pointer;
+    color:goldenrod;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.BVC h3{
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 100;
+    font-size: small;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+.BVC h3:hover{cursor: pointer;
+    color: deeppink;
+
+}
+.gfd{display: flex;
+
+}
+.gfd .nmb p{ padding-top: 50px;
+    color:goldenrod;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.gfd .nmb p:hover{
+    color: red;
+}
+.DIS {
+    color: aliceblue;
+    padding-top: 140px;
+    padding-left: 100px;
+}
+.DIS:hover{
+    color: chartreuse;
+}
+.zaq {
+    align-items: center;
+    color: darkgoldenrod;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.zaq .h1{
+
+    padding-bottom: 100px;
+}
+.zaq:hover{
+color: crimson;
+}
+.fun{
+    display: flex;
+    background-image: url(./img/rpa-concept-with-blurry-hand-touching-screen_23-2149311914.jpg);
+
+}
+.fun .mkj{
+    padding-left: 10%;
+
+}
+.icons{
+    display: flex;
+    color: red;
+    padding-top: 100px;
+    justify-content: flex-end;
+    padding-right: 70px;
+}
+.icons ul{
+    justify-content: space-evenly;
+}
+.vector{
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    color: aliceblue;
+    background-color:black;
+    justify-content: center;
+    padding: 50px 50px;
+}
+.DES{
+    align-items: center;
+    color: antiquewhite;
+    margin-left: 300px;
+}
+.kiata{
+    display: flex;
+    color: white;
+    padding-top: 200px;
+    justify-content: space-evenly;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kiata .p{
+    padding-bottom:60px;
+}
+.form-2{color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
