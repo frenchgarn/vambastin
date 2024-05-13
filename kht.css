@@ -146,6 +146,11 @@ color: crimson;
      body {
          background-color:green;
      }
+     .vector{ background-color: green;
+        margin-left: auto;
+
+     }
+
      .gush{display: flex;
         flex-direction: column;
 
