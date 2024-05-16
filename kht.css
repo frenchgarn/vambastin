@@ -9,7 +9,7 @@ body{
 .dent{
     background-image: url(./images/balo\ 3.jpg);
     background-size: cover;
-    background-repeat:;
+    background-repeat:no-repeat;
 }
 .gush{
     padding-left: 200px;
@@ -131,7 +131,7 @@ color: crimson;
 
 }@media (max-width:992px) {
     body{
-     background-color: red;
+     background-color: yellowgreen;
      }
  }
  @media ( max-width:768px) {
@@ -147,20 +147,32 @@ color: crimson;
          background-color:green;
      }
      .vector{ background-color: green;
-        margin-left:50%;
+        margin-left:20%;
 
      }
-
-     .gush{display: flex;
+     nav ul{
+        justify-content: space-between;
+        display: flex;
         flex-direction: column;
+     }
+     .active{
+        left: 0%;
+     }
+     .icons ul{
+        list-style: none;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+    
+    }
 
-     }
-     h1{
-         display: block;
-     }
  }
  @media ( max-width:320px) {
      body {
          background-color:blueviolet;
+     }
+     .vector{
+        background-color: blueviolet;
+        margin-left: 20%;
      }
  }
